@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Dictionary.css";
 
 export default function Dictionary() {
-    let [keyword, setkeyword] = useState("");
+    let [keyword, setKeyword] = useState("");
     
     function search(event) {
         event.preventDefault();
@@ -10,7 +10,7 @@ export default function Dictionary() {
     }
 
     function handleKeywordChange(event) {
-        setkeyword(event.target.vaule);
+        setKeyword(event.target.value);
     }
 
 
