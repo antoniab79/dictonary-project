@@ -10,7 +10,11 @@ export default function App() {
       <main>
         <Dictionary />
       </main>
-      <footer>Coded by Antonia</footer>
+      <footer>This project was coded by Antonia, it's open-sourced on
+        <a href="https://github.com/antoniab79/dictonary-project">Github</a>, and hosted on 
+        <a href="https://react-word-lookup.netlify.app/">Netlify</a>
+
+      </footer>
     </div>
     </div>
   );
