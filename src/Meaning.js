@@ -9,11 +9,15 @@ export default function Meaning(props) {
         {
             return (
                 <div key={index}>
-                        <strong>Definition:</strong> {definition.definition}
+                    <p>
+                        <strong>Definition:</strong> 
+                        {definition.definition}
                         <br />
-                        <strong>Example:</strong> {definition.example}
-                        <br />
+                        <strong>Example:</strong> 
+                        <em>{definition.example}</em>
+                        <br />                        
                         <Synonyms synonyms={definition.synonyms} />
+                    </p>    
                 </div>
             );
         })}
