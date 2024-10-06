@@ -8,7 +8,7 @@ export default function App() {
       <header className="App-header">
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunrise" />
       </main>
       <footer>This project was coded by Antonia, it's open-sourced on { " " }
         <a href="https://github.com/antoniab79/dictonary-project">Github</a>, and hosted on { " " }
