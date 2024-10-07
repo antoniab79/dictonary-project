@@ -2,9 +2,15 @@ body {
   background: #FFEDE1;
 }
 
-a {
-  color: #9670f4;
+h1 {
+  margin: 0 auto;
+  text-align: center;
 }
+
+a {
+  color: #e49d8c;
+}
+
 .App {
   max-width: 960px;
   margin: 0 auto;
